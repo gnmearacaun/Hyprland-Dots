@@ -8,15 +8,26 @@ iDIR="$HOME/.config/swaync/icons"
 
 # Define menu options as an associative array
 declare -A menu_options=(
-  ["Lofi Girl ☕️🎶"]="https://play.streamafrica.net/lofiradio"
-  ["96.3 Easy Rock 📻🎶"]="https://radio-stations-philippines.com/easy-rock"
-  ["Ghibli Music 🎻🎶"]="https://youtube.com/playlist?list=PLNi74S754EXbrzw-IzVhpeAaMISNrzfUy&si=rqnXCZU5xoFhxfOl"
-  ["Top Youtube Music 2023 ☕️🎶"]="https://youtube.com/playlist?list=PLDIoUOhQQPlXr63I_vwF9GD8sAKh77dWU&si=y7qNeEVFNgA-XxKy"
-  ["Chillhop ☕️🎶"]="http://stream.zeno.fm/fyn8eh3h5f8uv"
-  ["SmoothChill ☕️🎶"]="https://media-ssl.musicradio.com/SmoothChill"
-  ["Relaxing Music ☕️🎶"]="https://youtube.com/playlist?list=PLMIbmfP_9vb8BCxRoraJpoo4q1yMFg4CE"
-  ["Youtube Remix 📻🎶"]="https://youtube.com/playlist?list=PLeqTkIUlrZXlSNn3tcXAa-zbo95j0iN-0"
-  ["Korean Drama OST 📻🎶"]="https://youtube.com/playlist?list=PLUge_o9AIFp4HuA-A3e3ZqENh63LuRRlQ"
+
+  ["nieuwemuziek-concertzender"]="http://streams.greenhost.nl:8080/nieuwemuziek"
+  ["oudemuziek-concertzender"]="http://streams.greenhost.nl:8080/oudemuziek"
+  ["barok-concertzender"]="http://streams.greenhost.nl:8080/barok"
+  ["klassiek-concertzender"]="http://streams.greenhost.nl:8080/klassiek"
+  ["bach-concertzender"]="http://streams.greenhost.nl:8080/bach"
+  ["wereldmuziek-concertzender"]="http://streams.greenhost.nl:8080/wereldmuziek"
+  ["contemp classical 📻🎶"]="http://79.111.119.111:8002/contclass"
+  ["Vocal - radio caprice 🎻🎶"]="http://79.120.77.11:9063/"
+  ["piano - radio caprice"]="http://79.120.77.11:8002/piano"
+  ["baroque radio caprice"]="http://79.111.14.76:8000/baroque"
+  ["organ radio caprice"]="http://79.120.77.11:8002/organ"
+  ["chamber jazz - radio caprice"]="http://79.120.39.202:8002/chamberjazz"
+  ["concertzenderLive ☕️🎶"]="http://streams.greenhost.nl:8080/concertzenderlive"
+  # a few others:
+# http://streams.greenhost.nl:8080/orientexpress
+# http://streams.greenhost.nl:8080/live
+# http://streams.greenhost.nl:8080/folkit
+# http://streams.greenhost.nl:8080/radiophonics
+# https://listen.radioking.com/radio/256885/stream/301510
 )
 
 # Function for displaying notifications

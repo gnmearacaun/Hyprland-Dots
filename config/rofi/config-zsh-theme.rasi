@@ -25,7 +25,9 @@ configuration {
 
 /* ---- Window ---- */
 window {
-    width:						800px;
+	/*width:						800px;*/
+    width:						1200px;
+	/*width:						800px;*/
 	/*height:						450px;*/
     x-offset:                   0px;
     y-offset:                   0px;

@@ -4,7 +4,7 @@
 /* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
-    font:                       "Fira Code SemiBold 12";
+    font:                       "Fira Code SemiBold 13";
     show-icons:                 true;
     display-drun:               "";
 	display-run:                "";
@@ -24,8 +24,10 @@ configuration {
 
 /* ---- Window ---- */
 window {
-    width:						500px;
-	height:						400px;
+/*    width:						500px; */
+/*	height:						400px; */
+    width:						1200px;
+	  height:						800px;
     x-offset:                   0px;
     y-offset:                   0px;
     spacing:                    0px;
@@ -103,7 +105,7 @@ entry {
     enabled:                    true;
     text-color:                 inherit;
     cursor:                     text;
-    placeholder:                "Choose Online Music Station";
+    placeholder:                "Search";
     placeholder-color:          inherit;
 	background-color:			transparent;
 }
