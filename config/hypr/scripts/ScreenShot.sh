@@ -6,7 +6,7 @@ iDIR="$HOME/.config/swaync/icons"
 notify_cmd_shot="notify-send -h string:x-canonical-private-synchronous:shot-notify -u low -i ${iDIR}/picture.png"
 
 time=$(date "+%d-%b_%H-%M-%S")
-dir="$(xdg-user-dir)/Pictures/Screenshots"
+dir="$(xdg-user-dir)/media/photos/Screenshots"
 file="Screenshot_${time}_${RANDOM}.png"
 
 active_window_class=$(hyprctl -j activewindow | jq -r '(.class)')

@@ -5,7 +5,7 @@
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
 # WALLPAPERS PATH
-wallDIR="$HOME/Pictures/wallpapers"
+wallDIR="$HOME/media/photos/wallpapers"
 
 # Transition config
 FPS=30
