@@ -4,7 +4,7 @@
 # Note: Scripts are looking for keywords Light or Dark except for wallpapers as the are in a separate folders
 
 # Paths
-wallpaper_base_path="$HOME/Pictures/wallpapers/Dynamic-Wallpapers"
+wallpaper_base_path="$HOME/media/photos/wallpapers"
 dark_wallpapers="$wallpaper_base_path/Dark"
 light_wallpapers="$wallpaper_base_path/Light"
 hypr_config_path="$HOME/.config/hypr"
