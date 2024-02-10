@@ -40,8 +40,7 @@ window {
     enabled:                    true;
     border-radius:              12px;
     border-radius:              12px;
-    background-image:           url("~/.config/rofi/.current_wallpaper", height);
- 	
+ 	background-color:           @background-color;
 }
 
 /* ---- Mainbox ---- */
@@ -49,9 +48,10 @@ mainbox {
     enabled:                    true;
     orientation:                horizontal;
 	padding:					8px;
-    background-color:           transparent;
+    background-image:           url("~/.config/rofi/.current_wallpaper", height);
     children:                   [ "imagebox"];
     border-radius:              12px;
+    background-color:      		@background;
 }
 
 /* ---- Imagebox ---- */
