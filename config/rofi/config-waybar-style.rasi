@@ -4,7 +4,7 @@
 /* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
-    font:                       "Fira Code SemiBold 12";
+    font:                       "Fira Code SemiBold 13";
     show-icons:                 true;
     display-drun:               "";
 	display-run:                "";
@@ -24,8 +24,8 @@ configuration {
 
 /* ---- Window ---- */
 window {
-    width:						800px;
-	/*height:						800px;*/
+    width:						1200px;
+	height:						1000px;
     x-offset:                   0px;
     y-offset:                   0px;
     spacing:                    0px;

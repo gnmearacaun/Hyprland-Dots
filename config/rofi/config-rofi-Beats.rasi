@@ -24,10 +24,8 @@ configuration {
 
 /* ---- Window ---- */
 window {
-/*    width:						500px; */
-/*	height:						400px; */
-    width:						1200px;
-	  height:						800px;
+    width:						700px;
+	height:						900px;
     x-offset:                   0px;
     y-offset:                   0px;
     spacing:                    0px;
@@ -105,7 +103,7 @@ entry {
     enabled:                    true;
     text-color:                 inherit;
     cursor:                     text;
-    placeholder:                "Search";
+    placeholder:                "Choose Online Music Station";
     placeholder-color:          inherit;
 	background-color:			transparent;
 }
